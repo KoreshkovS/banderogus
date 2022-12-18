@@ -1,0 +1,342 @@
+html,
+body {
+  height: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-top: 34px;
+  margin-bottom: 58px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header p {
+  margin-left: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #010101;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+.main-page {
+  background: linear-gradient(270deg, #a5deff 0%, #fcfeff 100%);
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+}
+
+.banderogus-container {
+  background-color: white;
+  padding: 60px 56px;
+  margin-top: 56px;
+  align-self: center;
+}
+.banderogus-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+  color: #1b1d1f;
+  margin-bottom: 24px;
+}
+.banderogus-start {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ff6b0a;
+  margin-bottom: 48px;
+}
+.banderogus-dobrogo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  margin-bottom: 16px;
+}
+.banderogus-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  margin-bottom: 48px;
+}
+.banderogus-button {
+  margin-bottom: 60px;
+  background: #ff6b0a;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Montserrat";
+  width: 172px;
+  height: 48px;
+  left: 151px;
+  top: 532px;
+  cursor: pointer;
+}
+.main-page-row {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.banderogus-image {
+  align-self: flex-end;
+}
+.gus-facts {
+  padding: 52px 0 72px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gus-facts h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100px;
+  color: #1b1d1f;
+  margin: 16px 0;
+}
+.gus-facts-desc {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  text-align: center;
+  width: 875px;
+}
+.gus-facts-container {
+  width: 1170px;
+}
+.gus-facts-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gus-fact-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #1b1d1f;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+.gus-fact-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  width: 280px;
+}
+.gus-facts-item {
+  width: 33%;
+}
+
+.victory-bgd {
+  width: 1170px;
+  background: linear-gradient(270deg, #c1e8ff 0%, #ffffff 100%);
+  padding: 72px 0;
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.victory-footer {
+  display: flex;
+  justify-content: center;
+}
+.victory-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100px;
+  color: #1b1d1f;
+  margin: 16px 0;
+}
+.victory-descr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  width: 875px;
+  text-align: center;
+}
+.victory-descr-2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1d1f;
+  margin-top: 100px;
+}
+.copy-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ff6b0a;
+}
+.copy-link:hover {
+  color: blue;
+}
+
+.modal-bgd {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 80%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-form-container {
+  background-color: white;
+  padding: 32px 93px 60px 93px;
+  position: relative;
+}
+.modal-form-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+.modal-form-descr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+.modal-form-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.model-form-btn {
+  margin-top: 40px;
+}
+.modal-field-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.modal-form-input {
+  width: 374px;
+  height: 48px;
+  left: 493px;
+  top: 354px;
+  background: #ffffff;
+  border: 1px solid #005bbb;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 4px 8px;
+}
+
+.model-form-btn {
+  background: #ff6b0a;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Montserrat";
+  width: 172px;
+  height: 48px;
+  left: 151px;
+  top: 532px;
+  cursor: pointer;
+  border: 0;
+  margin-top: 24px;
+}
+.close-btn {
+  position: absolute;
+  left: 522px;
+  top: 19px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  border: 0;
+  background: none;
+}
+.modal-descr {
+  margin-bottom: 0;
+}
+
+.modal-active {
+  opacity: 1;
+  pointer-events: all;
+}
+.gus-anim {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 375px) {
+}
