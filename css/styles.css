@@ -78,6 +78,7 @@ header p {
   margin-bottom: 48px;
 }
 .banderogus-button {
+  border: none;
   margin-bottom: 60px;
   background: #ff6b0a;
   border-radius: 8px;
